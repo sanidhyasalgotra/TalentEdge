@@ -1,0 +1,11 @@
+# Base directory is `frontend` (set in the project settings), so paths below
+# are relative to this folder.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page app: let React Router handle client-side routes on refresh/deep links.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

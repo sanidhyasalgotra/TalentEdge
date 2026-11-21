@@ -36,7 +36,7 @@ export default function Landing() {
 
       <Recruiter
         excited={ctaHover}
-        className="mx-auto mt-16 w-56 lg:absolute lg:right-0 lg:top-0 lg:mx-0 lg:mt-0 lg:w-64"
+        className="mx-auto mt-16 w-56 lg:absolute lg:right-0 lg:top-8 lg:mx-0 lg:mt-0 lg:w-64"
       />
 
       <div className="mt-14 grid gap-4 sm:grid-cols-3">
